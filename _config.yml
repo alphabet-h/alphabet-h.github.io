@@ -1,0 +1,9 @@
+# GitHub Pages configuration for alphabet-h.github.io.
+#
+# No `plugins:` list. GitHub Pages enables jekyll-relative-links,
+# jekyll-optional-front-matter and jekyll-titles-from-headings by default,
+# which is what lets these pages carry no front matter and link with .md paths.
+title: koshian
+description: Apps published by koshian (こしあん).
+
+theme: jekyll-theme-minimal
