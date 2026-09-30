@@ -17,6 +17,17 @@ The license information on the Microsoft Store side may still be out of date. Pl
 
 The index you created can still be used as-is after purchase, but "Reset" and reinstalling delete the index and settings, and they are rebuilt the next time the App starts.
 
+## If some documents are not indexed
+
+The following documents and folders are not indexed. They do not appear in search results or in the document list shown before a search.
+
+- A document larger than 50 MB (Word, Excel, PowerPoint, PDF, Markdown or text alike)
+- Anything inside a folder whose name starts with `.` (a period), a folder named `node_modules`, the Recycle Bin (`$RECYCLE.BIN`), or `System Volume Information`
+- Anything inside a folder the App cannot read (no access permission, not yet downloaded to the PC by OneDrive or similar, a disconnected network drive, and so on)
+- Password-protected PDF or Office documents
+
+The supported formats are Word (`.docx`), Excel (`.xlsx`), PowerPoint (`.pptx`), PDF (`.pdf`), Markdown (`.md`) and text (`.txt`). The older formats (`.doc` / `.xls` / `.ppt`) are not supported.
+
 ## System requirements
 
 - Windows 10 version 2004 or later, or Windows 11 (x64)

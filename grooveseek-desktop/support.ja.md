@@ -17,6 +17,17 @@ Microsoft Store 側の権利情報が古いままになっていることがあ�
 
 作成した索引は購入後もそのまま使えますが、「リセット」と再インストールでは索引と設定が消え、次回起動時に作り直しになります。
 
+## 索引に入らない文書がある場合
+
+次の文書やフォルダは索引に入りません。検索結果にも、検索前の文書一覧にも出ません。
+
+- 1 つの大きさが 50 MB を超える文書 (Word・Excel・PowerPoint・PDF・Markdown・テキストのいずれも)
+- 名前が `.` (ピリオド) で始まるフォルダ、`node_modules` という名前のフォルダ、ごみ箱 (`$RECYCLE.BIN`)、`System Volume Information` の中
+- 本アプリが読めないフォルダ (アクセス権が無い、OneDrive 等でまだ PC に取り込まれていない、切断されたネットワークドライブなど) の中
+- パスワードで保護された PDF や Office の文書
+
+対応する形式は Word (`.docx`)、Excel (`.xlsx`)、PowerPoint (`.pptx`)、PDF (`.pdf`)、Markdown (`.md`)、テキスト (`.txt`) です。古い形式 (`.doc` / `.xls` / `.ppt`) には対応していません。
+
 ## 動作環境
 
 - Windows 10 version 2004 以降、または Windows 11 (x64)
