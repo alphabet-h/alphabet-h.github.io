@@ -28,6 +28,8 @@ The following documents and folders are not indexed. They do not appear in searc
 
 The supported formats are Word (`.docx`), Excel (`.xlsx`), PowerPoint (`.pptx`), PDF (`.pdf`), Markdown (`.md`) and text (`.txt`). The older formats (`.doc` / `.xls` / `.ppt`) are not supported.
 
+For why the App could not read a file and what to do, by reason, see [Files that couldn’t be read](./troubleshooting.md).
+
 ## System requirements
 
 - Windows 10 version 2004 or later, or Windows 11 (x64)

@@ -28,6 +28,8 @@ Microsoft Store 側の権利情報が古いままになっていることがあ�
 
 対応する形式は Word (`.docx`)、Excel (`.xlsx`)、PowerPoint (`.pptx`)、PDF (`.pdf`)、Markdown (`.md`)、テキスト (`.txt`) です。古い形式 (`.doc` / `.xls` / `.ppt`) には対応していません。
 
+本アプリが読めなかったファイルの、理由ごとの原因と対処は [読めなかったファイルの理由と対処](./troubleshooting.ja.md) をご覧ください。
+
 ## 動作環境
 
 - Windows 10 version 2004 以降、または Windows 11 (x64)
